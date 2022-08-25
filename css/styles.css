@@ -100,7 +100,9 @@ img {
 
 .nav .logo {
   margin-right: 93px;
+}
 
+.logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
