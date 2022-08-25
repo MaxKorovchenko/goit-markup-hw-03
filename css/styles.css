@@ -381,9 +381,7 @@ img {
 }
 
 .portfolio-item {
-  flex-basis: calc((100% - 60px) / 3);
-
-  border: 1px solid var(--cards-border-color);
+  flex-basis: calc((100% - 60px) / 3);  
 }
 
 .portfolio-subtitle {
@@ -404,7 +402,12 @@ img {
 
 .portfolio-group {
   padding: 20px 24px;
+  border-left: 1px solid var(--cards-border-color);
+  border-right: 1px solid var(--cards-border-color);
+  border-bottom: 1px solid var(--cards-border-color);
 }
+
+
 
 .visually-hidden {
   position: absolute;
