@@ -31,6 +31,22 @@ body {
   background-color: var(--main-bg-cl);
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* outline: 2px solid red;
+  outline-offset: -2px; */
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* reset */
 h1,
 h2,
@@ -59,21 +75,7 @@ img {
   height: auto;
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 /* Header */
 
@@ -100,8 +102,7 @@ img {
 
 .nav .logo {
   margin-right: 93px;
-  
-}
+  }
 
 .logo {
   padding-top: 24px;
